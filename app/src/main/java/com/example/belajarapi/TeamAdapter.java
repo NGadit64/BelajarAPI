@@ -35,7 +35,7 @@ public class TeamAdapter extends RecyclerView.Adapter<TeamAdapter.TeamViewHolder
         holder.txtStadium.setText(team.getStrStadium());
 
             Glide.with(holder.itemView.getContext())
-                    .load(team.getStrBadge()) // asumsinya kamu punya field ini
+                    .load(team.getStrBadge())
                     .into(holder.imgBadge);
 
     }
