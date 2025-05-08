@@ -3,11 +3,12 @@ package com.example.belajarapi;
 public class Team {
     private String strTeam;
     private String strStadium;
+    private String strBadge;
 
     public String getStrTeam() {
         return strTeam;
     }
-    private String strBadge;
+
 
     public String getStrBadge() {
         return strBadge;

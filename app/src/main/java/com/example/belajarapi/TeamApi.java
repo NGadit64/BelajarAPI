@@ -8,4 +8,8 @@ import com.example.belajarapi.TeamResponse;
 public interface TeamApi {
     @GET("search_all_teams.php")
     Call<TeamResponse> getAllTeams(@Query("l") String league);
+
+    @GET
+    Call<TeamResponse> getTeamsFromUrl(@retrofit2.http.Url String url);
+
 }
